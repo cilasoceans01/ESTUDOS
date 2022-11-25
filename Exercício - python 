@@ -1,0 +1,392 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPGBYKfk/NnLZdawZU4PGYv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/cilasoceans01/ESTUDOS/blob/main/Exerc%C3%ADcio%20-%20python%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qYJ8JpiyxWvw",
+        "outputId": "7193be3c-fd8f-4f3d-db49-8b62d7ef35cb"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite um número10\n"
+          ]
+        }
+      ],
+      "source": [
+        "n1=int(input('Digite um número'))\n",
+        "n2=int(input('Digite outro número'))\n",
+        "s = n1+n2\n",
+        "print('A soma entre {} e {} é igual a {}!' .format(n1, n2, s))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Exercícios - Lista Estrutura Sequencial python - Porto Digital\n"
+      ],
+      "metadata": {
+        "id": "-ZPJaYXVvC1w"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##1. Faça um Programa que mostre a mensagem \"Alô mundo\" na tela.\n"
+      ],
+      "metadata": {
+        "id": "KaHW9WNpptBT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Olá mundo')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lJFSgVHkp_R_",
+        "outputId": "edfecac5-5706-4abc-eb20-b112ff65fdad"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá mundo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##2. Faça um Programa que peça um número e então mostre a mensagem: \"O número informado foi [número]\".\n"
+      ],
+      "metadata": {
+        "id": "XS_lZfx0rhK_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input('Digite um número, por favor'))\n",
+        "\n",
+        "print('O número digitado foi', n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eRXelcPqr0UZ",
+        "outputId": "22bc5b30-dc33-495c-d280-4f3ea2100303"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número, por favor10\n",
+            "O número digitado foi 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##3. Faça um Programa que peça dois números e imprima a soma"
+      ],
+      "metadata": {
+        "id": "ayVU4Me0tgrQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1=int(input('Digite um número, por favor'))\n",
+        "n2=int(input('Digite outro número, por favor'))\n",
+        "\n",
+        "print('A soma do calculo é', n1+n2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lsJW-Lf_toU9",
+        "outputId": "bf72ff06-e61e-4976-bb16-db89ddf413c3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número, por favor36\n",
+            "Digite outro número, por favor36\n",
+            "A soma do calculo é 72\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##4. Faça um Programa que peça as 4 notas bimestrais e mostre a média.**negrito**"
+      ],
+      "metadata": {
+        "id": "M-DkwkJpvMs0"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "sm1VUCeqzYHx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "J9TfHUHwvQiC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "5XVzIQBsvL5y"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##5. Faça um Programa que converta metros para centímetros.\n"
+      ],
+      "metadata": {
+        "id": "8VjUHoazvcBN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metro=float(input('Informe o valor em metros'))\n",
+        "soma = metro * 100\n",
+        "print(metro,'m, o metro informado em centímetro é',soma,'cm')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qHmZvDFevkg8",
+        "outputId": "4744d351-ce7b-4f38-d899-048c07ee6fe3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe o valor em metros20\n",
+            "20.0 m, o metro informado em centímetro é 2000.0 cm\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.\n"
+      ],
+      "metadata": {
+        "id": "i4RkDBb6zdRa"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "raio=float(input('Digite o raio do círculo, por favor'))\n",
+        "area= 3.14 * raio \n",
+        "print('O calculo da área é', area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XC-6WdnNzqib",
+        "outputId": "499e7c61-3f87-41c7-fc44-40c0c3d0e0af"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o raio do círculo, por favor10\n",
+            "O calculo da área é 31.400000000000002\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "Q6q_jqUdmnce"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.negrito\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "0vhqT4Zemner"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "quadrado=float(input('Digite o tamanho do comprimento do quadrado'))\n",
+        "\n",
+        "area = quadrado ** 2\n",
+        "area_em_dobro = area * 2\n",
+        "print('A area do quadrado e o dobro é' , quadrado, 'é', area_em_dobro)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ne2C4wIjms2A",
+        "outputId": "e24985c7-b44c-4eab-c181-f0da20e4af3e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o tamanho do comprimento do quadrado4\n",
+            "A area do quadrado e o dobro é 4.0 é 32.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##8. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.\n"
+      ],
+      "metadata": {
+        "id": "C90Zbi91p1Tc"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "hora1=float(input('Quanto você ganha por hora trabalhado?'))\n",
+        "hora2=float(input('Quantas horas você trabalha por mês?'))\n",
+        "\n",
+        "total = hora1+hora2\n",
+        "print('O total de ganho por hora é', hora1, 'e total da jornada de trabalho no mês são',hora2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UggkPIJHp__Y",
+        "outputId": "8fd6c12a-b279-4641-e6bd-a4c1676db222"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Quanto você ganha por hora trabalhado?5\n",
+            "Quantas horas você trabalha por mês?28\n",
+            "O total de ganho por hora é 5.0 e total da jornada de trabalho no mês são 28.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##9. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9).\n"
+      ],
+      "metadata": {
+        "id": "ndbwIbvmuJoD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "vFznPZEjuO3k"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##10. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. F = (C * 1,8) + 32\n"
+      ],
+      "metadata": {
+        "id": "cSwxQqqxuQFu"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "7S7cN-EfueHU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
